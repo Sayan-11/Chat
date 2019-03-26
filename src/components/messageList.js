@@ -15,6 +15,7 @@ class messageList extends Component {
   }
 }
 
+// mapStateToProps because the component needs to change the state
 function mapStateToProps(state){
     return {messages: state.messages}
 }
