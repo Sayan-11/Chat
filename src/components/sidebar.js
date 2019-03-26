@@ -16,6 +16,7 @@ class sidebar extends Component {
   }
 }
 
+// mapStateToProps because the component needs to read data from the state
 function mapPropsToState(state, users){
     return(
         {
