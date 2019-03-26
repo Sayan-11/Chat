@@ -20,6 +20,7 @@ class textbox extends Component {
   }
 }
 
+// mapDispatchToProps because the component needs to change the state
 function mapDispatchToProps(dispatch){
    return dispatch(addMessage(message, user))
 }
